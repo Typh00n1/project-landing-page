@@ -106,14 +106,15 @@ img{
 }
 
 .picRow{
+    align-items:center;
     display:flex;
     gap:10px;
-    text-align:center;
+    justify-content:center;
+    text-align:cengter;
 }
 
 .picRowItem{
     flex:1;
-    
 }
 
 .picRowItem>div{
@@ -127,12 +128,16 @@ img{
 }
 
 .salvador{background-image:url("./imgs/salvador-cabanas.jpg");}
-.cuahtemoc{background-image:url("./imgs/blanco.jpeg");}
+.cuahtemoc{background-image:url("./imgs/blanco.jpeg");
+
+}
 .pavel{background-image:url("./imgs/pavel.jpeg");}
 .memo{background-image:url("./imgs/memo.jpeg");}
 
 .picRowItem p{
+    font-size:22px;
     padding:10px;
+    text-align:center;
 }
 
 .quote{
